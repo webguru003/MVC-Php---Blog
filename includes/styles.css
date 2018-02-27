@@ -1,0 +1,94 @@
+/**
+ * CSS
+ *
+ * @author Hameed Ullah Khan - hameed.customphp@gmail.com
+ * @version 1.0
+ * @date August 13, 2017
+ */
+
+.comment,
+#Container{
+	padding:6px;
+	width:600px;
+	position:relative;
+	background-color:#fcfcfc;
+	border:1px solid white;
+	color:#888;
+	margin-bottom:10px;
+}
+
+.comment .name{
+	font-size:16px;
+	padding-bottom:1px;
+	color:#ccc;
+}
+
+.comment .date{
+	font-size:10px;
+	padding:2px 0;
+	position:absolute;
+	right:15px;
+	top:4px;
+	color:#bbb;
+}
+
+.comment p,
+#Container p{
+	font-size:18px;
+	line-height:1.5;
+	overflow-x:hidden;
+}
+
+.postedby { 
+	color:#D9D9D9;
+	margin-top: 14px!important;
+}
+
+#Container input[type=text],
+#Container textarea{
+
+	/* Styling the inputs */
+
+	display:block;
+	border:1px solid #ccc;
+	margin:5px 0 5px;
+	padding:5px;
+	font-size:12px;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#Container textarea{
+	width:400px;
+}
+
+label{
+	font-size:12px;
+}
+
+label span.error{
+	color:red;
+	position:relative;
+	right:-10px;
+}
+
+
+#main{
+	position:relative;
+	margin:0 auto;
+	width:600px;
+}
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#website { 
+	display: none !important;
+}
